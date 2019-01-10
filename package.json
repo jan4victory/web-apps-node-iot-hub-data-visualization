@@ -1,9 +1,13 @@
 {
   "name": "webapp",
-  "version": "10.15.0",
+  "version": "0.0.0",
   "private": true,
   "scripts": {
     "start": "node server.js"
+  },
+  "name": "my package",
+  "engines": {
+    "node": ">=10.1" // intentionally so big version number
   },
   "dependencies": {
     "azure-event-hubs": "^0.2.1",
