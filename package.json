@@ -7,7 +7,7 @@
   },
   "name": "my package",
   "engines": {
-    "node": ">=10.1" // intentionally so big version number
+    "node": ">=10.1" 
   },
   "dependencies": {
     "azure-event-hubs": "^0.2.1",
